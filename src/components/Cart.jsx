@@ -1,6 +1,6 @@
 function Cart() {
     return (
-        <div className="navbar w-20" >
+        <div className="navbar w-20 z-50" >
             <div className="flex-none">
                 <div className="dropdown dropdown-end">
                     <label tabIndex={0} className="btn btn-ghost btn-circle">

@@ -9,12 +9,12 @@ function Drawer() {
         </div>
         <div className="drawer-side">
           <label htmlFor="my-drawer" className="drawer-overlay"></label>
-          <ul className="menu-vertical  p-4 w-60 bg-base-100 text-base-content ">
+          <ul className="menu-vertical  p-4 w-60 bg-base-200 text-base-content ">
             <li className=' flex justify-center items-end'><label htmlFor="my-drawer"><img src='./assets/close.png' alt="close" className='h-5 w-5 ' /></label></li>
-            <li className='p-4 rounded-xl border-2 hover:bg-blue-100'><a>Home</a></li>
-            <li className='p-4 rounded-xl border-2 hover:bg-blue-100'><a>Cities</a></li>
-            <li className='p-4 rounded-xl border-2 hover:bg-blue-100'><a>Cotact</a></li>
-            <li className='p-4 rounded-xl border-2 hover:bg-blue-100'><a>Login/Logout</a></li>
+            <li className='p-4'><a>Home</a></li>
+            <li className='p-4'><a>Cities</a></li>
+            <li className='p-4'><a>Cotact</a></li>
+            <li className='p-4'><a>Login/Logout</a></li>
           </ul>
         </div>
       </div>
